@@ -10,37 +10,47 @@
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./app/css/style.css">
   <script src="./app/js/index.js"></script>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
 <header class="header">
-  <nav class="flex flex-jc-sb flex-ai-c">
+  <div class="overlay has-fade"></div>
+  <nav class="container flex flex-jc-sb flex-ai-c">
     <a href="/" class="header__logo">
     <img src="./images/logo.svg">
   </a>
-  <a href="#" class="header_menu">
+  <a href="#" id="hamburger" class="header__toggle hide-for-desk">
     <span></span>
     <span></span>
     <span></span>
   </a>
-  <div class="header__links">
+  <div class="header__links hide-for-mobile">
 <a href="#">Home</a>
 <a href="#">About</a>
 <a href="#">Contact</a>
 <a href="#">Blog</a>
 <a href="#">Careers</a>
   </div>
-  
-  <button type="button">Request Invite</button>
+
+  <a href="#" class="button header__cta hide-for-mobile">Request Invite</a>
   </nav>
-</header>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+
+  <div class="header__menu has-fade">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Blog</a>
+    <a href="#">Careers</a>
   </div>
+</header>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis velit quis congue auctor. In tincidunt vestibulum eros rutrum tristique. Sed fermentum nec tellus laoreet rhoncus. Aenean porttitor nibh maximus, interdum orci at, ullamcorper eros. Quisque suscipit tortor quis libero hendrerit, eleifend euismod neque efficitur. Quisque nunc justo, faucibus sit amet dui sit amet, tempus tincidunt risus. Praesent hendrerit blandit consequat. Vestibulum justo libero, ornare sed tortor non, sagittis sagittis justo. Nunc et tortor vel leo mattis pretium a a mauris. Donec luctus tincidunt eleifend. Nam molestie enim at turpis iaculis porta et vestibulum turpis. Aenean luctus eget orci vel tempus.
+
+Nunc varius interdum neque, placerat eleifend ipsum dapibus ut. Sed non dui eget mi venenatis porta. Pellentesque a posuere erat. Nunc viverra placerat nisi, nec finibus dui imperdiet vitae. Morbi venenatis mollis velit sed luctus. Cras vel elementum odio. Etiam scelerisque vel sapien nec interdum. Vestibulum vestibulum, leo vel commodo blandit, purus sem feugiat velit, sit amet semper ante arcu a orci. Vestibulum at interdum ipsum, ac interdum ipsum.
+
+Proin mollis ipsum at consequat vestibulum. Phasellus et posuere erat. Etiam lectus odio, accumsan vel dui vel, viverra consectetur ante. Curabitur nisi tortor, venenatis ut dui id, tincidunt finibus ligula. Nullam nec turpis lacinia tortor dictum viverra. Aliquam commodo eget nibh ut ullamcorper. Phasellus eleifend tempus justo vitae vehicula. Donec consequat sagittis dolor vitae fringilla. Quisque vitae dui a purus tristique ultrices at in justo. Nulla maximus efficitur nisi. Cras sit amet ultricies turpis. Donec commodo elit quam, nec pharetra odio dignissim sit amet. Nam tincidunt sagittis felis, id placerat purus ultrices non.
+
+Proin dignissim mi nunc. Sed lacinia turpis et semper consectetur. Morbi posuere ante quis eros porttitor faucibus. Proin ac efficitur sem. Donec sed sem fermentum, aliquet quam sit amet, accumsan metus. Aenean et feugiat turpis. Fusce eget gravida lorem. Pellentesque sit amet scelerisque est. Sed arcu nisl, cursus ac est quis, finibus cursus odio. In placerat odio libero, vitae efficitur ante molestie eget.
+
+Pellentesque faucibus lacus urna, ut euismod felis varius vitae. Etiam quis porttitor felis. Aenean molestie accumsan lectus, nec posuere tortor commodo quis. Praesent gravida eu tellus sit amet dignissim. Quisque sit amet euismod ipsum, eu posuere lacus. Nunc porta quam quam, id tempus nisl pellentesque a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sit amet augue vel orci mattis pulvinar. Aliquam scelerisque nec erat quis ultrices. Fusce eleifend, ante non sollicitudin pellentesque, magna purus iaculis urna, sed condimentum mauris ipsum ac ipsum. Mauris consequat metus vitae turpis suscipit, vulputate sollicitudin ligula ullamcorper. Nullam neque eros, elementum vitae elementum id, vehicula convallis arcu. Vestibulum tristique molestie enim ac posuere.
 </body>
 </html>

@@ -15,10 +15,21 @@ body{
     color: darkblue;
     font-size: 14px;
     
+ &.noscroll{
+     overflow: hidden;
+ }   
 }
 
 a, a:visited, a:hover {text-decoration: none;}
 
+//spacing
+.container {
+    // border: 1px solid blue;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+ }
+
+//FLEXBOX
 .flex{
     display: flex;
 
@@ -32,6 +43,31 @@ a, a:visited, a:hover {text-decoration: none;}
 
     &-ai-c {
         align-items: center;
+    }
+
+}
+
+//Buttons
+button, .button {
+    padding: 0.875rem 2.875rem;
+    background: linear-gradient( 90deg, hsl(136,65%,51%),hsl(192,70%,51%));
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+}
+
+.hide-for-mobile {
+@include breakpoint-down(medium){
+    display: none;
+}
+
+}
+
+.hide-for-desk {
+    @include breakpoint-up(large){
+        display: none;
     }
 
 }
